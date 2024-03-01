@@ -1,0 +1,2 @@
+/restaurant/bookings/
+/restaurant/registration/
