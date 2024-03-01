@@ -7,3 +7,4 @@ class MenuTest(TestCase):
         item = Menu.objects.create(title="IceCream", price=80, inventory=100)
         self.assertEqual(item.title, "IceCream")
         self.assertEqual(item.price, 80)
+        self.assertIsInstance
